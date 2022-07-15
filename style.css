@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0; 
+/* here is a basic css reset, I dicided to keep box-sizing as content-box */
+}
+
+body {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.8rem;
+    box-shadow: 0 0 20px 0 rgba(14, 40, 84, 0.5);
+    margin: 1rem;
+    max-width: 17.5rem;
+    padding: 1.2rem 1.2rem 1.5rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.description {
+    padding: 1.3rem 0.2rem;
+}
+
+.description h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.description p {
+    font-size: 0.9375rem;
+    color: hsl(220, 15%, 55%);
+    padding-top: 1rem;
+    font-weight: 400;
+}
